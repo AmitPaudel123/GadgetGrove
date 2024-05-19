@@ -12,7 +12,10 @@ const Navbar = () => {
       <div className=" w-10/12 flex flex-col gap-5  md:flex-row  justify-between text-sm  items-center sticky">
         {/* leftbar */}
         <div className="md:flex hidden">
-          <img className=" cursor-pointer" sizes="10" src={logo} alt="" />
+          {/* <img className=" cursor-pointer" sizes="10" src={logo} alt="" /> */}
+          <p className=" text-3xl text-orange-500 font-bold">
+            Gadget<span className=" text-green-500">Grove</span>
+          </p>
         </div>
 
         {/* rightbar */}
@@ -37,29 +40,42 @@ const Navbar = () => {
           </Link>
 
           <Link to={"/shopbar"}>
-            <p  className={`${
+            <p
+              className={`${
                 location.pathname === "/shopbar" ? "text-orange-600" : ""
-              } cursor-pointer`}>
-              Shop Cards</p>
+              } cursor-pointer`}
+            >
+              Shop Cards
+            </p>
           </Link>
 
           <Link to={"/blog"}>
-            <p  className={`${
+            <p
+              className={`${
                 location.pathname === "/blog" ? "text-orange-600" : ""
-              } cursor-pointer`}>
+              } cursor-pointer`}
+            >
               Blog SideBar
             </p>
           </Link>
 
           <Link to={"/contact"}>
-            <p  className={`${
+            <p
+              className={`${
                 location.pathname === "/contact" ? "text-orange-600" : ""
-              } cursor-pointer`}>Contact</p>
+              } cursor-pointer`}
+            >
+              Contact
+            </p>
           </Link>
           <Link to={"/signin"}>
-            <p  className={`${
+            <p
+              className={`${
                 location.pathname === "/signin" ? "text-orange-600" : ""
-              } cursor-pointer`}>Login</p>
+              } cursor-pointer`}
+            >
+              Login
+            </p>
           </Link>
         </div>
       </div>

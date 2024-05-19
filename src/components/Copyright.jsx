@@ -5,7 +5,7 @@ const Copyright = () => {
     <div className=" flex justify-center">
       <div className=" justify-between flex w-full   pb-6 text-sm sm:text-md">
         <div className=" cursor-pointer">
-          <p>All Rights Reserved © Rajan Bahadur Shahi 2023</p>
+          <p>All Rights Reserved © Techno Store 2023</p>
         </div>
       </div>
     </div>

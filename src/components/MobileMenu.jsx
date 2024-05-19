@@ -14,7 +14,10 @@ const MobileMenu = () => {
     <div className="fixed  border-b left-0 right-0 top-0 py-4  bg-white  z-50  md:hidden flex justify-center ">
       <div className=" w-full  md:w-10/12   ">
         <div className="  flex items-center justify-between cursor-pointer ">
-          <img src={logo} alt="" className=" px-4" />
+          {/* <img src={logo} alt="" className=" px-4" /> */}
+          <p className=" text-3xl text-orange-500 font-bold px-4">
+            Gadget<span className=" text-green-500">Grove</span>
+          </p>
           <div onClick={handleClick} className=" px-4 ">
             {!nav ? (
               <AiOutlineMenu size={30} className=" text-black" />

@@ -11,7 +11,10 @@ import { AiFillLinkedin } from "react-icons/ai";
 import Copyright from "./Copyright";
 const Footer = () => {
   return (
-    <div name="contact" className=" flex flex-col items-center gap-4 justify-center">
+    <div
+      name="contact"
+      className=" flex flex-col items-center gap-4 justify-center"
+    >
       {/* container */}
       <div className=" flex flex-col  w-full md:w-10/12 ">
         {/* top */}
@@ -23,7 +26,7 @@ const Footer = () => {
               src={Logo}
               alt=""
             />
-            <p className=" text-sm ">Got Question ? Call Us 9866448106</p>
+            <p className=" text-sm ">Got Question ? Call Us 987654321</p>
             {Calls.map((call, index) => (
               <p className="hover:text-orange-600 " key={index}>
                 {call.name}
@@ -132,7 +135,7 @@ const links = [
 
 const Calls = [
   {
-    name: "Call Us: (+977) 9866448106",
+    name: "Call Us: (+977) 987654321",
   },
   {
     name: "Po Box CT16122 Collins Street",
